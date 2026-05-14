@@ -1,0 +1,5 @@
+Versões Site/
+.vscode/
+*.DS_Store
+Thumbs.db
+node_modules/
