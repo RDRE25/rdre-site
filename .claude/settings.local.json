@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\\\\|headline\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index_gpt.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\\\\|bonus\\\\|bônus\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index_R27_premium.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\\\\|bonus\\\\|bônus\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\RDRE_FINAL_R27_premium_hotmart_popup.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\\\\|headline\\\\|funnl\\\\|funil\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index_foguete.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\\\\|foguete\\\\|rocket\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index_final_otimizado.html\")",
+      "Bash(grep -i \"R\\\\$ \\\\|preço\\\\|price\" \"C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\index_melhorado_manus.html\")",
+      "Bash(grep -h \"R\\\\$ \" 'C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\Index03.02.html' 'C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\Index_03.02.25.html' 'C:\\\\Users\\\\thiag\\\\Desktop\\\\RDRE\\\\Site\\\\Versões Site\\\\Index_03.02.26.html')",
+      "WebFetch(domain:muitoalemdogpt.com.br)",
+      "Bash(curl -s \"https://muitoalemdogpt.com.br/deal/\" --max-time 30 -H \"User-Agent: Mozilla/5.0\")"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="robots" content="noindex, nofollow" /> <!-- Impede indexação no Google -->
+  <title>Compra Confirmada - Kit RDRE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Poppins', sans-serif; color: #0f172a; }
+    :root {
+      --rdre-navy: #0B1C2E;
+      --rdre-teal: #50AAB2;
+      --rdre-teal-dark: #338693;
+      --rdre-green: #62A66D;
+      --rdre-bg: #F7FCFC;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, var(--rdre-teal) 0%, var(--rdre-green) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, var(--rdre-teal) 0%, var(--rdre-green) 100%);
+    }
+    .shine-btn {
+      position: relative; overflow: hidden; isolation: isolate;
+    }
+    .shine-btn::before {
+      content: ""; position: absolute; top: -60%; left: -35%; width: 45%; height: 220%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.38), transparent);
+      transform: rotate(20deg) translateX(-140%); transition: transform 0.75s ease; z-index: 0;
+    }
+    .shine-btn:hover::before { transform: rotate(20deg) translateX(340%); }
+    .shine-btn > * { position: relative; z-index: 1; }
+    .fade-in { animation: fadeIn 0.8s ease forwards; opacity: 0; transform: translateY(20px); }
+    @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- Meta Pixel Code (Purchase Event) -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '951771281014493');
+    fbq('track', 'PageView');
+    fbq('track', 'Purchase', {value: 27.00, currency: 'BRL'});
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=951771281014493&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body style="background:var(--rdre-bg);">
+
+  <main class="min-h-screen flex flex-col items-center justify-center py-12 px-4 fade-in">
+    <div class="max-w-2xl w-full bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+      
+      <!-- Cabeçalho Sucesso -->
+      <div class="text-center py-10 px-6" style="background:linear-gradient(135deg,#4FA9B1 0%, #62A66D 100%);">
+        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <i class="fa-solid fa-check text-4xl text-emerald-500"></i>
+        </div>
+        <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Compra Confirmada!</h1>
+        <p class="text-white/90 text-lg">Seu acesso ao Kit RDRE 7 Dias já foi liberado.</p>
+      </div>
+
+      <!-- Conteúdo -->
+      <div class="p-8 md:p-10">
+        <h2 class="text-xl font-bold text-slate-900 mb-6 text-center">Próximos Passos</h2>
+        
+        <div class="space-y-6">
+          <div class="flex gap-4">
+            <div class="w-12 h-12 rounded-full bg-teal-50 flex items-center justify-center text-teal-600 font-bold text-lg flex-shrink-0 border border-teal-100">1</div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-lg">Acesse seu E-mail</h3>
+              <p class="text-slate-600 mt-1">A Hotmart acabou de enviar o link de acesso para o e-mail que você cadastrou na compra. Procure por "Hotmart" na sua caixa de entrada (ou spam).</p>
+            </div>
+          </div>
+          
+          <div class="flex gap-4">
+            <div class="w-12 h-12 rounded-full bg-teal-50 flex items-center justify-center text-teal-600 font-bold text-lg flex-shrink-0 border border-teal-100">2</div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-lg">Crie sua Senha</h3>
+              <p class="text-slate-600 mt-1">Ao clicar no link do e-mail, você será direcionado para criar sua senha na área de membros (Hotmart Club).</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-12 h-12 rounded-full bg-teal-50 flex items-center justify-center text-teal-600 font-bold text-lg flex-shrink-0 border border-teal-100">3</div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-lg">Inicie o Dia 0</h3>
+              <p class="text-slate-600 mt-1">Lá dentro, comece pelo módulo "Dia 0 - Pacto de Execução" para configurar seu Copiloto RDRE antes de dar qualquer outro passo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 pt-8 border-t border-slate-100 text-center">
+          <p class="text-slate-500 mb-4">Já tem conta na Hotmart ou quer acessar direto?</p>
+          <a class="gradient-bg text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition inline-flex items-center gap-2 shine-btn w-full md:w-auto justify-center text-lg"
+             href="https://consumer.hotmart.com/" target="_blank" rel="noopener">
+            Acessar Área de Membros <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Suporte -->
+    <div class="mt-8 text-center text-slate-500 text-sm max-w-md">
+      <p>Problemas com o acesso? Envie um e-mail para o nosso suporte ou acesse a central de ajuda da Hotmart.</p>
+    </div>
+    
+  </main>
+
+</body>
+</html>

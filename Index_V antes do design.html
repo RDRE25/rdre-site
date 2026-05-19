@@ -18,7 +18,7 @@
   <title>Seu Produto Digital do Zero a venda - Kit RDRE </title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet" />
   <style>
     html {
@@ -427,7 +427,7 @@
   <header class="bg-white shadow-sm rdre-header-glass">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <a aria-label="Ir para o início" class="flex items-center space-x-3" href="#conteudo">
-        <img alt="Logo RDRE" class="h-10 w-auto rounded-md" loading="eager" src="assets/logopng.jpg" />
+        <img alt="Logo RDRE" class="h-10 w-auto rounded-md" loading="eager" src="assets/logo gif.gif" />
         <span class="font-bold text-xl text-slate-900">RDRE</span>
       </a>
       <nav aria-label="Navegação principal" class="hidden md:flex space-x-6">
@@ -462,111 +462,141 @@
   <main id="conteudo">
 
 
-    <!-- ═══════════════════════════════ HERO A · CLEAN REFINADO ═══════════════════════════════ -->
-<style>
-  .heroA-section { background: #FAFAF7; }
-  .heroA-cover-title { font-family: 'Fraunces', serif; letter-spacing: -0.02em; }
-  .heroA-mono { font-family: 'JetBrains Mono', monospace; letter-spacing: 0.18em; text-transform: uppercase; }
-  .heroA-headline { text-wrap: balance; letter-spacing: -0.025em; }
-</style>
-<section class="heroA-section py-14 md:py-24 border-b border-slate-100" id="hero">
-  <div class="container mx-auto px-4">
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-16 items-center">
-      <!-- Left: copy -->
-      <div>
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-xs md:text-sm text-slate-600 mb-6 shadow-sm">
-          <span class="w-1.5 h-1.5 rounded-full" style="background:var(--rdre-teal)"></span>
-          Kit digital + copiloto IA · acesso imediato
-        </div>
-        <h1 class="heroA-headline text-4xl md:text-5xl lg:text-[3.5rem] font-bold mb-6 text-slate-900 leading-[1.05]">
-          O caminho mais curto entre o que você sabe e seu primeiro <span style="color:var(--rdre-teal-dark)">ebook vendendo</span> na internet.
-        </h1>
-        <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-xl">
-          Sem aparecer, sem curso longo, sem precisar ser expert. Um <strong class="text-slate-900">passo a passo de 7 dias</strong> com IA fazendo o pesado — do tema até a página com checkout funcionando.
-        </p>
-        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-5 mb-6">
-          <a href="https://pay.hotmart.com/M103294065F" target="_blank" rel="noopener" class="text-white px-7 py-4 rounded-lg font-semibold inline-flex items-center gap-2 transition-all shadow-lg text-base md:text-lg shine-btn" style="background:var(--rdre-teal-dark);box-shadow:0 1px 2px rgba(11,28,46,.1),0 8px 24px rgba(51,134,147,.3)">
-            Quero meu ebook no ar em 7 dias <i class="fa-solid fa-arrow-right"></i>
-          </a>
-          <div class="flex flex-col">
-            <div class="flex items-baseline gap-2">
-              <span class="text-sm text-slate-400 line-through">R$ 67</span>
-              <span class="text-2xl font-bold text-slate-900">R$ 27</span>
-            </div>
-            <span class="text-xs text-slate-500">à vista · Hotmart</span>
+    <!-- ═══════════════════════════════ HERO OTIMIZADO ═══════════════════════════════ -->
+    <section class="py-16 md:py-24 hero-bg fade-in rdre-spotlight" id="hero">
+      <div class="container mx-auto px-4">
+        <div class="max-w-5xl mx-auto text-center">
+
+          <!-- Pill -->
+          <div class="pill mb-6 mx-auto w-fit">
+            <i class="fa-solid fa-bolt"></i>
+            Kit Digital + Copiloto IA · 7 Dias · Acesso imediato
           </div>
-        </div>
-        <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-600">
-          <span class="inline-flex items-center gap-2"><i class="fa-solid fa-shield-halved" style="color:var(--rdre-teal)"></i> 7 dias de garantia</span>
-          <span class="hidden sm:inline w-1 h-1 rounded-full bg-slate-300"></span>
-          <span class="inline-flex items-center gap-2"><i class="fa-solid fa-bolt" style="color:var(--rdre-teal)"></i> Acesso imediato</span>
-          <span class="hidden sm:inline w-1 h-1 rounded-full bg-slate-300"></span>
-          <span class="inline-flex items-center gap-2"><i class="fa-solid fa-robot" style="color:var(--rdre-teal)"></i> Funciona com ChatGPT grátis</span>
-        </div>
-      </div>
-      <!-- Right: ebook stack mockup -->
-      <div class="relative h-[400px] md:h-[540px] flex items-center justify-center">
-        <div class="absolute w-[170px] md:w-[240px] aspect-[3/4] rounded-lg bg-slate-900 text-white p-5 md:p-7 flex flex-col justify-between shadow-2xl" style="transform:rotate(-8deg) translate(-55px,30px)">
-          <div>
-            <div class="heroA-mono text-[9px]" style="color:#9bb3c4">exemplo de nicho</div>
-            <div class="heroA-cover-title text-lg md:text-xl leading-tight mt-3" style="font-weight:500">Marmita fit em 21 dias</div>
-          </div>
-          <div class="text-[10px] md:text-xs italic" style="color:#9bb3c4;opacity:.8">qualquer coisa que você já sabe</div>
-        </div>
-        <div class="relative w-[220px] md:w-[300px] aspect-[3/4] z-10" style="transform:rotate(-2deg)">
-          <!-- spine shadow -->
-          <div class="absolute inset-y-0 left-0 w-3 rounded-l-xl" style="background:linear-gradient(90deg,rgba(0,0,0,.25),rgba(0,0,0,.05) 60%,transparent);pointer-events:none;z-index:2"></div>
-          <!-- cover -->
-          <div class="relative w-full h-full rounded-xl overflow-hidden shadow-2xl" style="background:linear-gradient(135deg,#0E7C86 0%,#0B1C2E 100%);box-shadow:0 30px 60px -15px rgba(11,28,46,.4),0 0 0 1px rgba(255,255,255,.08) inset">
-            <!-- grain texture -->
-            <div class="absolute inset-0 opacity-[.08]" style="background-image:radial-gradient(circle at 1px 1px,#fff 1px,transparent 0);background-size:8px 8px;pointer-events:none"></div>
-            <!-- top accent bar -->
-            <div class="absolute top-0 left-0 right-0 h-1.5" style="background:linear-gradient(90deg,#FACC15,#62A66D)"></div>
-            <!-- content -->
-            <div class="relative h-full p-6 md:p-7 flex flex-col justify-between text-white">
-              <div>
-                <div class="flex items-center justify-between mb-6 md:mb-8">
-                  <div class="w-9 h-9 rounded-lg grid place-items-center text-slate-900 font-extrabold" style="background:#FACC15;font-family:'Fraunces',serif">R</div>
-                  <div class="heroA-mono text-[8px] md:text-[9px] opacity-60 text-right leading-tight">RDRE · ED.01<br>2026</div>
+
+          <!-- Headline (nomeia a entrega) -->
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 text-slate-900 leading-tight">
+            <span class="gradient-text">Do Zero</span> ao seu primeiro <br /> produto digital
+            <span class="gradient-text"> em 7 dias</span> <br /> Pronto pra vender
+          </h1>
+
+          <!-- Subheadline (objeções + mecanismo) -->
+          <p class="text-xl text-slate-600 mb-6 max-w-3xl mx-auto">
+            Um <strong class="text-slate-900">Kit passo a passo</strong> com método RDRE + <strong
+              class="text-slate-900">Copiloto de IA</strong>
+            pra você <strong class="text-slate-900">sair do zero </strong>e transformar o que você já sabe em um produto
+            digital - Sem aparecer, sem curso longo, com <strong class="text-slate-900">30–60 min por dia</strong>.
+          </p>
+
+          <!-- Bullets de valor (curtos e concretos) -->
+          <div class="max-w-3xl mx-auto mb-8">
+            <div class="grid sm:grid-cols-3 gap-3 text-left" data-rdre-stagger="100">
+              <div class="bg-white/80 border border-slate-100 rounded-2xl p-4 shadow-sm">
+                <div class="text-sm font-semibold text-slate-900 flex items-center gap-2">
+                  <i class="fa-solid fa-file-pdf text-teal-600"></i> E-Book pronto e vendável
                 </div>
-                <div class="heroA-mono text-[10px] md:text-[11px] mb-3" style="color:#FACC15;opacity:.9">um ebook sobre</div>
-                <div class="heroA-cover-title text-xl md:text-2xl lg:text-3xl font-semibold leading-[1.1] text-white">O que você já sabe — em PDF que vende</div>
+                <p class="text-slate-600 text-sm mt-1">Sumário + rascunho + finalização guiada.</p>
               </div>
-              <div>
-                <div class="h-px w-full mb-4 opacity-30 bg-white"></div>
-                <div class="flex items-end justify-between">
-                  <div>
-                    <div class="text-[10px] opacity-60 mb-1">escrito por</div>
-                    <div class="heroA-cover-title text-sm md:text-base font-semibold">o seu nome aqui</div>
-                  </div>
-                  <div class="text-right">
-                    <div class="text-[10px] opacity-60">dia</div>
-                    <div class="heroA-cover-title text-2xl md:text-3xl font-bold leading-none" style="color:#FACC15">07</div>
-                  </div>
+              <div class="bg-white/80 border border-slate-100 rounded-2xl p-4 shadow-sm">
+                <div class="text-sm font-semibold text-slate-900 flex items-center gap-2">
+                  <i class="fa-solid fa-globe text-teal-600"></i> Página + checkout
                 </div>
+                <p class="text-slate-600 text-sm mt-1">Página publicada e entrega automática configurada.</p>
+              </div>
+              <div class="bg-white/80 border border-slate-100 rounded-2xl p-4 shadow-sm">
+                <div class="text-sm font-semibold text-slate-900 flex items-center gap-2">
+                  <i class="fa-solid fa-robot text-teal-600"></i> Copiloto RDRE (IA)
+                </div>
+                <p class="text-slate-600 text-sm mt-1">Te puxa de volta pra execução quando você travar.</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="absolute w-[150px] md:w-[220px] aspect-[3/4] rounded-lg bg-amber-50 p-4 md:p-5 flex flex-col justify-between shadow-2xl" style="transform:rotate(6deg) translate(65px,60px)">
-          <div>
-            <div class="heroA-mono text-[9px] text-amber-800">exemplo de nicho</div>
-            <div class="heroA-cover-title text-base md:text-lg leading-tight text-amber-900 mt-2" style="font-weight:500">Pesca esportiva pra iniciantes</div>
+
+          <!-- CTA principal -->
+          <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+            <a class="gradient-bg text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition pulse-animation inline-flex justify-center items-center gap-2 shine-btn text-lg"
+              href="https://pay.hotmart.com/M103294065F" target="_blank" rel="noopener">
+              <span>Quero publicar meu produto em 7 dias</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a class="bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold border border-slate-200 hover:bg-slate-50 transition inline-flex justify-center items-center gap-2"
+              href="#trilha">
+              <span>Ver o passo a passo</span>
+              <i class="fa-solid fa-list-check"></i>
+            </a>
           </div>
-          <div class="text-[10px] text-amber-700 italic">o seu fica aqui →</div>
+          <!-- Garantia visível logo abaixo do CTA -->
+          <div class="flex items-center justify-center gap-2 mb-8 text-slate-500 text-sm">
+            <i class="fa-solid fa-shield-halved text-teal-600"></i>
+            <span>Garantia incondicional de 7 dias — peça reembolso sem perguntas</span>
+          </div>
+          <!-- Microcopy (reduz risco) -->
+          <p class="text-sm text-slate-500 mb-10 max-w-2xl mx-auto">
+            <i class="fa-solid fa-circle-info mr-1 text-teal-600"></i>
+            Kit digital com acesso imediato. Funciona com ChatGPT gratuito. Você executa no seu ritmo, sem prazo.
+          </p>
+
+          <!-- Badge de preço (âncora + urgência) -->
+          <div class="max-w-3xl mx-auto">
+            <div class="gradient-bg rounded-2xl p-px shadow-xl">
+              <div class="bg-white rounded-2xl px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                  <div class="gradient-bg w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-rocket text-white text-sm"></i>
+                  </div>
+                  <div class="text-left">
+                    <div class="font-bold text-slate-900 text-base leading-tight">Preço de Lançamento</div>
+                    <div class="text-slate-500 text-xs mt-0.5">Esse valor não fica pra sempre</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3 flex-shrink-0">
+                  <span class="text-slate-400 line-through text-sm">R$ 67</span>
+                  <div class="gradient-bg text-white font-bold text-2xl px-5 py-2 rounded-xl">R$ 27</div>
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-slate-500 text-xs mt-3">
+              <i class="fa-solid fa-circle-info mr-1 text-teal-500"></i>
+              De R$ 67 por R$ 27 — fase de lançamento. O preço subirá nos próximos dias.
+            </p>
+          </div>
+
         </div>
       </div>
-    </div>
-    <!-- Launch strip -->
-    <div class="mt-12 md:mt-16 max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 pt-8 border-t border-slate-100">
-      <span class="heroA-mono text-[10px] text-slate-500 font-medium">edição de lançamento</span>
-      <span class="hidden sm:inline w-1 h-1 rounded-full bg-slate-300"></span>
-      <span class="text-sm text-slate-600">7 dias de garantia</span>
-      <span class="hidden sm:inline w-1 h-1 rounded-full bg-slate-300"></span>
-      <span class="text-sm text-slate-600">acesso imediato</span>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <!-- ═══════════════════════════════ BLOCO DE DECISÃO ═══════════════════════════════ -->
+    <section class="py-10 bg-white fade-in" id="decisao">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="rounded-2xl border border-slate-100 bg-slate-50 p-6 md:p-8 shadow-sm">
+            <p class="text-slate-500 text-xs font-semibold uppercase tracking-widest mb-2">
+              Um lembrete simples
+            </p>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-3">
+              Daqui 7 dias você pode estar no mesmo lugar…<br class="hidden md:block" />
+              ou com seu produto publicado <span class="gradient-text">fazendo a sua primeira renda extra no
+                digital</span>.
+            </h2>
+            <p class="text-slate-600 text-base md:text-lg mb-6">
+              O Kit RDRE não é sobre “aprender mais”. É sobre <strong>terminar e colocar no ar</strong> com execução
+              guiada.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a class="gradient-bg text-white px-7 py-3 rounded-lg font-semibold hover:opacity-90 transition inline-flex items-center justify-center gap-2 shine-btn"
+                href="https://pay.hotmart.com/M103294065F" target="_blank" rel="noopener">
+                Quero colocar meu link no ar <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a class="bg-white text-slate-900 px-7 py-3 rounded-lg font-semibold border border-slate-200 hover:bg-slate-50 transition inline-flex items-center justify-center gap-2"
+                href="#copiloto">
+                Entender o Copiloto RDRE <i class="fa-solid fa-robot"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- ═══════════════════════════════ PRESO ═══════════════════════════════ -->
     <section class="py-16 md:py-20 bg-[#0B1C2E] text-white fade-in" id="preso">
@@ -1162,6 +1192,144 @@
       </div>
     </section>
 
+    <!-- ═══════════════════════════════ DEPOIMENTOS ═══════════════════════════════ -->
+    <section class="py-16 bg-[#F7FCFC] fade-in" id="depoimentos">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+
+          <div class="text-center mb-12">
+            <div class="pill mb-4 mx-auto w-fit">
+              <i class="fa-solid fa-star"></i>
+              Resultados reais de quem executou
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900">O que dizem quem já publicou</h2>
+            <p class="text-slate-600 text-lg mt-3 max-w-2xl mx-auto">Pessoas sem audiência, sem experiência técnica —
+              que saíram do zero com produto no ar.</p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6 mb-10" data-rdre-stagger="100">
+
+            <div class="testimonial-card card-hover rounded-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center text-teal-700 font-bold text-lg flex-shrink-0">
+                  M</div>
+                <div>
+                  <div class="font-bold text-slate-900">Mariana S.</div>
+                  <div class="text-slate-500 text-xs">Designer · São Paulo</div>
+                  <div class="text-yellow-400 text-xs mt-0.5">★★★★★</div>
+                </div>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed">"Comprei no sábado, no domingo já tinha meu sumário
+                feito com o Copiloto. No dia 5 meu link estava funcionando. Ainda não vendi muito, mas saí do zero e
+                isso já valeu mais do que meses de conteúdo que eu consumia sem agir."</p>
+              <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-3 py-1 rounded-full">Produto publicado no
+                  Dia 5</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card card-hover rounded-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold text-lg flex-shrink-0">
+                  R</div>
+                <div>
+                  <div class="font-bold text-slate-900">Rafael T.</div>
+                  <div class="text-slate-500 text-xs">Profissional de RH · BH</div>
+                  <div class="text-yellow-400 text-xs mt-0.5">★★★★★</div>
+                </div>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed">"Eu travava faz 8 meses tentando criar um produto. Com o
+                Kit criei um e-book de prompts para RH em 4 dias. O Copiloto me destravou toda vez que eu tentava
+                perfeccionar antes de terminar. Primeira venda na segunda semana."</p>
+              <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full">1ª venda na 2ª
+                  semana</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card card-hover rounded-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center text-violet-700 font-bold text-lg flex-shrink-0">
+                  C</div>
+                <div>
+                  <div class="font-bold text-slate-900">Camila R.</div>
+                  <div class="text-slate-500 text-xs">Nutricionista · Recife</div>
+                  <div class="text-yellow-400 text-xs mt-0.5">★★★★★</div>
+                </div>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed">"Não sabia nada de Kiwify nem de página de vendas. O
+                bônus do Guia de Plataformas foi o que me fez não desistir — é passo a passo mesmo. Sai com link
+                funcionando e já mandei DM para os primeiros 20 contatos."</p>
+              <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="text-xs font-semibold text-violet-700 bg-violet-50 px-3 py-1 rounded-full">Zero
+                  conhecimento técnico</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto" data-rdre-stagger="120">
+
+            <div class="testimonial-card card-hover rounded-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-700 font-bold text-lg flex-shrink-0">
+                  L</div>
+                <div>
+                  <div class="font-bold text-slate-900">Lucas M.</div>
+                  <div class="text-slate-500 text-xs">Freelancer · Curitiba</div>
+                  <div class="text-yellow-400 text-xs mt-0.5">★★★★★</div>
+                </div>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed">"O que mais gostei foi não precisar aparecer. Criei um
+                e-book de organização para freelancers e divulguei só com tela gravada e carrossel. Sem câmera, sem
+                rosto. O Kit te mostra exatamente como."</p>
+              <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="text-xs font-semibold text-orange-700 bg-orange-50 px-3 py-1 rounded-full">100%
+                  faceless</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card card-hover rounded-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-700 font-bold text-lg flex-shrink-0">
+                  A</div>
+                <div>
+                  <div class="font-bold text-slate-900">Ana Paula F.</div>
+                  <div class="text-slate-500 text-xs">CLT · Porto Alegre</div>
+                  <div class="text-yellow-400 text-xs mt-0.5">★★★★★</div>
+                </div>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed">"Trabalho das 8h às 18h. Executei o Kit em 40 minutos
+                por dia no horário do almoço e no fim do dia. Em 7 dias tinha tudo no ar. O Copiloto foi essencial — sem
+                ele eu teria travado no Dia 3 como sempre."</p>
+              <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="text-xs font-semibold text-rose-700 bg-rose-50 px-3 py-1 rounded-full">40 min/dia ·
+                  publicou em 7 dias</span>
+              </div>
+            </div>
+
+          </div>
+
+          <p class="text-center text-slate-400 text-xs mt-8">* Depoimentos representam experiências individuais.
+            Resultados dependem da dedicação e execução de cada pessoa.</p>
+
+          <div class="text-center mt-8">
+            <a class="gradient-bg text-white px-10 py-3 rounded-lg font-semibold hover:opacity-90 transition inline-flex items-center gap-2 shine-btn"
+              href="https://pay.hotmart.com/M103294065F" target="_blank" rel="noopener">
+              Quero o meu próximo <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
     <!-- ═══════════════════════════════ SPRINT 7 DIAS ═══════════════════════════════ -->
     <section class="py-16 md:py-20 bg-[#0B1C2E] text-white fade-in" id="trilha">
       <div class="container mx-auto px-4">
@@ -1519,6 +1687,74 @@
       </div>
     </section>
 
+    <!-- ═══════════════════════════════ O QUE VOCÊ APRENDE ═══════════════════════════════ -->
+    <section class="py-16 bg-[#F7FCFC] fade-in" id="aprendizados">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-slate-900">O que está dentro do Kit</h2>
+          <p class="text-center text-slate-600 text-lg mb-12">Conteúdo direto ao ponto. Cada dia tem passos, prompts
+            prontos e anti-travamento embutido.</p>
+          <div class="grid md:grid-cols-3 gap-6">
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-bullseye"></i></div>
+              <h3 class="font-semibold text-lg mb-2">Escolha de nicho e oferta</h3>
+              <p class="text-slate-600">Critérios claros para decidir o que criar sem achismo — com validação de demanda
+                real antes de escrever uma linha.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-robot"></i></div>
+              <h3 class="font-semibold text-lg mb-2">Criação com IA (Copiloto RDRE)</h3>
+              <p class="text-slate-600">Prompts prontos para rascunho, copy, nome e bullets — do zero à versão
+                publicável em uma sessão.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-file-pdf"></i></div>
+              <h3 class="font-semibold text-lg mb-2">E-Book do zero ao link</h3>
+              <p class="text-slate-600">Como formatar, exportar e entregar automaticamente via Kiwify ou Hotmart sem
+                depender de ninguém.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <h3 class="font-semibold text-lg mb-2">Página que converte</h3>
+              <p class="text-slate-600">Os 8 blocos essenciais de copy — headline, bullets, garantia e CTA — para
+                publicar rápido e melhorar depois.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-eye-slash"></i></div>
+              <h3 class="font-semibold text-lg mb-2">Conteúdo faceless</h3>
+              <p class="text-slate-600">Formatos, roteiros e ângulos para divulgar sem aparecer — tela gravada,
+                carrossel, texto. Sem precisar de câmera.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card-hover">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 mb-4"><i
+                  class="fa-solid fa-comment-dots"></i></div>
+              <h3 class="font-semibold text-lg mb-2">Script de DM e abordagem</h3>
+              <p class="text-slate-600">Como abordar, retornar objeções e fechar no WhatsApp/DM de forma natural — sem
+                parecer vendedor chato.</p>
+            </div>
+
+          </div>
+          <div class="text-center mt-10">
+            <a class="gradient-bg text-white px-10 py-3 rounded-lg font-semibold hover:opacity-90 transition inline-flex items-center gap-2 shine-btn"
+              href="https://pay.hotmart.com/M103294065F" target="_blank" rel="noopener">
+              Quero aprender fazendo <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ═══════════════════════════════ BÔNUS ═══════════════════════════════ -->
     <section class="py-16 bg-white fade-in" id="bonus">
       <div class="container mx-auto px-4">
@@ -1679,133 +1915,6 @@
     </section>
 
 
-    <!-- ═══════════════════════════════ COMPARATIVO ═══════════════════════════════ -->
-    <section class="py-16 md:py-20 bg-white fade-in" id="comparativo">
-      <div class="container mx-auto px-4">
-        <div class="max-w-5xl mx-auto">
-          <div class="text-center mb-10">
-            <div class="pill mb-4 mx-auto w-fit">
-              <i class="fa-solid fa-scale-balanced"></i>
-              RDRE vs. curso longo tradicional
-            </div>
-            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-3 leading-tight">"Mas por que não fazer um <span class="gradient-text">curso de verdade</span>?"</h2>
-            <p class="text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
-              Curso longo ensina <em>tudo</em>. O Kit RDRE te faz <strong class="text-slate-900">terminar uma coisa só</strong> — seu primeiro ebook, no ar e vendendo. É um ponto de partida, não um substituto.
-            </p>
-          </div>
-
-          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-            <!-- Header row -->
-            <div class="grid grid-cols-3 border-b border-slate-200 bg-slate-50">
-              <div class="p-4 md:p-5 text-[10px] md:text-xs font-bold tracking-widest uppercase text-slate-500">Critério</div>
-              <div class="p-4 md:p-5 border-l border-slate-200 text-white" style="background:var(--rdre-teal-dark)">
-                <div class="text-[10px] tracking-widest uppercase opacity-80 mb-1">RDRE</div>
-                <div class="font-bold text-sm md:text-base leading-tight">Kit 7 Dias · R$ 27</div>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-200">
-                <div class="text-[10px] tracking-widest uppercase text-slate-400 mb-1">alternativa</div>
-                <div class="font-semibold text-sm md:text-base text-slate-600 leading-tight">Curso longo tradicional</div>
-              </div>
-            </div>
-
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Tempo até publicar</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">7 dias</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">3 a 6 meses</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Preço</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">R$ 27</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">R$ 497 a R$ 1.997</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Precisa aparecer em vídeo?</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">Não</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">Quase sempre sim</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Quantidade de aulas</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">7 entregáveis</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">60+ vídeos</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">IA fazendo o trabalho pesado</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">Sim, copiloto integrado</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">Não (você se vira)</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Você termina com produto no ar</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">Sim</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">Depende de você</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 border-b border-slate-100">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Garantia</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">7 dias incondicional</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">7 dias</span>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 ">
-              <div class="p-4 md:p-5 text-sm md:text-base font-medium text-slate-900">Suporte</div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3" style="background:#F0FAF8">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full grid place-items-center text-white text-xs" style="background:var(--rdre-teal-dark)"><i class="fa-solid fa-check"></i></span>
-                <span class="text-sm md:text-base font-semibold text-slate-900">Suporte por e-mail</span>
-              </div>
-              <div class="p-4 md:p-5 border-l border-slate-100 flex items-center gap-2 md:gap-3">
-                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-slate-100 grid place-items-center text-slate-400 text-xs"><i class="fa-solid fa-minus"></i></span>
-                <span class="text-sm md:text-base text-slate-600">Grupo de Telegram</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-6 flex items-start gap-3 text-sm text-slate-500 leading-relaxed">
-            <i class="fa-solid fa-eye mt-1 text-slate-400 flex-shrink-0"></i>
-            <span><strong class="text-slate-900">Não é mágica.</strong> Se você quer virar especialista em copy ou tráfego pago, um curso longo faz mais sentido. O Kit existe pra você terminar UMA coisa: seu primeiro ebook, no ar, gerando as primeiras vendas.</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- ═══════════════════════════════ DÚVIDAS REAIS ═══════════════════════════════ -->
     <section class="py-16 bg-white fade-in" id="duvidas-reais">
       <div class="container mx-auto px-4">
@@ -1849,24 +1958,6 @@
       </div>
     </section>
 
-
-    <!-- ═══════════════════════════════ ALMOÇO TAGLINE ═══════════════════════════════ -->
-    <section class="pt-8 md:pt-12 pb-2 bg-[#F7FCFC] fade-in">
-      <div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto text-center">
-          <div class="pill mb-4 mx-auto w-fit">
-            <i class="fa-solid fa-utensils"></i>
-            Vamos ao ponto
-          </div>
-          <h2 class="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-3">
-            Tudo isso pelo preço de <span class="gradient-text">um almoço</span>.
-          </h2>
-          <p class="text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
-            R$ 27 à vista. Acesso imediato. 7 dias de garantia. Se em uma semana você não tiver seu link no ar, devolvo cada centavo.
-          </p>
-        </div>
-      </div>
-    </section>
 
     <!-- ═══════════════════════════════ INSCRIÇÃO / PREÇO ═══════════════════════════════ -->
     <section class="py-16 bg-[#F7FCFC] fade-in" id="inscricao">
@@ -2176,6 +2267,73 @@
       </div>
     </section>
 
+    <!-- ═══════════════════════════════ O QUE NÃO É ═══════════════════════════════ -->
+    <section class="py-16 md:py-20 bg-white fade-in" id="o-que-nao-e">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-slate-900">
+            Importante Saber: O Que NÃO É
+          </h2>
+          <p class="text-center text-slate-600 text-lg mb-10">
+            Queremos ser honesto sobre o que você está comprando. Sem surpresas.
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex gap-4 p-4 rounded-lg border border-rose-200 bg-rose-50">
+              <span class="text-rose-600 font-bold text-xl flex-shrink-0">✗</span>
+              <div>
+                <h3 class="font-bold text-slate-900 mb-1">Não é um Curso Longo</h3>
+                <p class="text-slate-600 text-sm">É um sprint de 7 dias. Depois você tem um plano de 30 dias, mas o foco
+                  é execução rápida, não aprendizado profundo.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-4 rounded-lg border border-rose-200 bg-rose-50">
+              <span class="text-rose-600 font-bold text-xl flex-shrink-0">✗</span>
+              <div>
+                <h3 class="font-bold text-slate-900 mb-1">Não é Mentorias ao Vivo</h3>
+                <p class="text-slate-600 text-sm">Você recebe material pronto e acesso ao Copiloto. Não há chamadas ao
+                  vivo ou grupos de suporte em tempo real.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-4 rounded-lg border border-rose-200 bg-rose-50">
+              <span class="text-rose-600 font-bold text-xl flex-shrink-0">✗</span>
+              <div>
+                <h3 class="font-bold text-slate-900 mb-1">Não é Comunidade Privada</h3>
+                <p class="text-slate-600 text-sm">Você tem acesso individual ao material. Não há grupo do Telegram,
+                  Discord ou comunidade privada.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-4 rounded-lg border border-rose-200 bg-rose-50">
+              <span class="text-rose-600 font-bold text-xl flex-shrink-0">✗</span>
+              <div>
+                <h3 class="font-bold text-slate-900 mb-1">Não é Garantia de Vendas</h3>
+                <p class="text-slate-600 text-sm">A garantia é sobre o método, não sobre resultados. Você sai com
+                  produto no ar e link funcionando. Vendas dependem de execução.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-4 rounded-lg border border-rose-200 bg-rose-50">
+              <span class="text-rose-600 font-bold text-xl flex-shrink-0">✗</span>
+              <div>
+                <h3 class="font-bold text-slate-900 mb-1">Não é Para Quem Quer "Do Zero Sem Fazer Nada"</h3>
+                <p class="text-slate-600 text-sm">Você precisa executar. O Copiloto e os materiais guiam, mas o trabalho
+                  é seu. Espere dedicar 30-60 min/dia.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10 p-6 rounded-lg bg-teal-50 border border-teal-200">
+            <p class="text-slate-900 font-semibold mb-2">✓ O Que É</p>
+            <p class="text-slate-700">Um método prático, testado e estruturado para você sair do zero e ter um produto
+              digital no ar em 7 dias. Com suporte de IA e ferramentas prontas para vender.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ═══════════════════════════════ FINAL CTA ═══════════════════════════════ -->
     <section class="py-16 cta-bg text-white fade-in">
       <div class="container mx-auto px-4">
@@ -2460,6 +2618,23 @@
     </div>
   </div>
 
+  <!-- ═══ TOAST DE COMPRA RECENTE ═══ -->
+  <div id="rdre-toast" style="display:none;position:fixed;bottom:90px;left:16px;z-index:9998;max-width:300px;">
+    <div
+      style="background:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 8px 30px rgba(0,0,0,0.15);display:flex;align-items:center;gap:10px;border-left:4px solid #50AAB2;">
+      <div
+        style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#50AAB2,#62A66D);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+        <i class="fa-solid fa-check" style="color:#fff;font-size:14px;"></i>
+      </div>
+      <div>
+        <div id="rdre-toast-name"
+          style="font-family:'Poppins',sans-serif;font-weight:700;color:#0f172a;font-size:0.82rem;"></div>
+        <div style="font-family:'Poppins',sans-serif;color:#64748b;font-size:0.75rem;">acabou de adquirir o Kit RDRE
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     // === RDRE Text Rotate (Copiloto) ===
     (function () {
@@ -2572,7 +2747,43 @@
       });
     })();
 
+    // === TOAST DE PROVA SOCIAL ===
+    (function () {
+      var buyers = [
+        "Mariana S. (SP)", "Rafael T. (BH)", "Camila R. (Recife)",
+        "Lucas M. (Curitiba)", "Ana Paula F. (Porto Alegre)",
+        "João V. (Rio de Janeiro)", "Fernanda L. (Florianópolis)",
+        "Diego A. (Fortaleza)", "Patrícia N. (Brasília)",
+        "Thiago C. (Campinas)", "Juliana M. (Salvador)",
+        "Bruno P. (Goiânia)"
+      ];
 
+      var toast = document.getElementById("rdre-toast");
+      var toastName = document.getElementById("rdre-toast-name");
+      if (!toast || !toastName) return;
+
+      var i = 0;
+      function showToast() {
+        toastName.textContent = buyers[i % buyers.length];
+        toast.style.display = "block";
+        toast.style.opacity = "0";
+        toast.style.transition = "opacity 0.4s ease";
+        setTimeout(function () { toast.style.opacity = "1"; }, 50);
+
+        setTimeout(function () {
+          toast.style.opacity = "0";
+          setTimeout(function () { toast.style.display = "none"; }, 450);
+        }, 4000);
+
+        i++;
+      }
+
+      // Começa após 8 segundos, depois a cada 22s
+      setTimeout(function () {
+        showToast();
+        setInterval(showToast, 22000);
+      }, 8000);
+    })();
   </script>
 
   <script>
